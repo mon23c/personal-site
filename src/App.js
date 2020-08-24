@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar.js";
 import { makeStyles } from "@material-ui/core";
 import Introduction from "./components/Introduction.js";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 const useStyles = makeStyles();
 
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div className="light">
         <About classes={classes} />
+      </div>
+      <div className="light" style={{ justifyContent: "flex-start" }}>
+        <Projects classes={classes} />
       </div>
     </div>
   );
