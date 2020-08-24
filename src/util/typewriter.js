@@ -22,7 +22,7 @@ const TypeWriter = (props) => {
     }
   }, [text, displayText, speed, isRunning]);
 
-  return <h1 className="text-center">{displayText}</h1>;
+  return <div>{displayText}</div>;
 };
 
 export default TypeWriter;

@@ -1,8 +1,8 @@
 import React from "react";
-import TypeWriter from "./util/typewriter.js";
 import "./App.css";
 import Navbar from "./components/Navbar.js";
 import { makeStyles } from "@material-ui/core";
+import Introduction from "./components/Introduction.js";
 
 const useStyles = makeStyles();
 
@@ -12,9 +12,10 @@ function App() {
   return (
     <div className={classes.root}>
       <Navbar classes={classes} />
-      <header className="App-header">
-        <TypeWriter text="Coming Soon" speed={75} delay={1250} />
-      </header>
+      {/* <TypeWriter text="Coming Soon" speed={75} delay={1250} /> */}
+      <div className="light-gray">
+        <Introduction className="App-header" classes={classes} />
+      </div>
     </div>
   );
 }
