@@ -5,7 +5,9 @@ import {
   Toolbar,
   IconButton,
   Typography,
-  Button,
+  Tabs,
+  Tab,
+  Hidden,
 } from "@material-ui/core";
 import { Home } from "@material-ui/icons";
 
@@ -22,15 +24,26 @@ const Navbar = (classes) => {
           >
             <Home />
           </IconButton>
-          <Typography
-            variant="h6"
-            className={classes.title}
-            style={{ alignSelf: "center" }}
-          >
-            News
-          </Typography>
+          <Hidden smDown>
+            <Typography
+              variant="h6"
+              className={classes.title}
+              style={{ alignSelf: "center" }}
+            >
+              Adrian Wijaya
+            </Typography>
+          </Hidden>
         </Box>
-        <Button color="inherit">Login</Button>
+        <Tabs
+          aria-label="Navbar information"
+          scrollButtons="on"
+          variant="scrollable"
+        >
+          <Tab label="About" wrapped />
+          <Tab label="Experiences" wrapped />
+          <Tab label="Projects" wrapped />
+          <Tab label="Contacts" wrapped />
+        </Tabs>
       </Toolbar>
     </AppBar>
   );
