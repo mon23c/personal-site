@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core";
 import Introduction from "./components/Introduction.js";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const useStyles = makeStyles();
 
@@ -24,6 +25,7 @@ function App() {
       <div className="light" style={{ justifyContent: "flex-start" }}>
         <Projects classes={classes} />
       </div>
+      <Footer classes={classes} />
     </div>
   );
 }
