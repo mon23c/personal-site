@@ -15,40 +15,40 @@ const Projects = (classes) => {
         Projects
       </Typography>
       <Grid container spacing={4}>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
-        <Grid item xs={12} md={4} sm={6} spacing={3} m={1}>
+        <Grid item xs={12} md={4} sm={6} spacing={3}>
           <Codecard classes={classes} />
         </Grid>
       </Grid>
