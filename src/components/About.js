@@ -1,10 +1,10 @@
 import React from "react";
-import { Typography, Grid, Button } from "@material-ui/core";
+import { Typography, Grid } from "@material-ui/core";
 
 const About = (classes) => {
   return (
     <Grid container spacing={4}>
-      <Grid container spacing={1} md={6}>
+      <Grid container item spacing={1} md={6}>
         <Grid item xs={12}>
           <Typography
             component="h1"
@@ -27,7 +27,7 @@ const About = (classes) => {
           </Typography>
         </Grid>
       </Grid>
-      <Grid container spacing={2} md={6} justify="center">
+      <Grid container item spacing={2} md={6} justify="center">
         <Grid item>
           <Typography color="textPrimary">
             Aut repellat rerum aut repudiandae. Veniam quibusdam quod et est.
