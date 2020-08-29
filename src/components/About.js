@@ -17,29 +17,24 @@ const About = (classes) => {
           </Typography>
         </Grid>
         <Grid item xs={12}>
-          <Typography
+          {/* <Typography
             variant="h5"
             align="center"
             color="textSecondary"
             paragraph
           >
             Blablabla
-          </Typography>
+          </Typography> */}
         </Grid>
       </Grid>
       <Grid container item spacing={2} md={6} justify="center">
         <Grid item>
           <Typography color="textPrimary">
-            Aut repellat rerum aut repudiandae. Veniam quibusdam quod et est.
-            Sunt sed quod possimus est omnis aut rerum. Quam animi non quos
-            cupiditate. Id voluptatem rem enim quia ut velit veritatis. Rerum
-            sit dolor voluptatem veritatis. Minus magni quaerat unde dolor. Eos
-            id velit optio eligendi. Harum sequi ut sapiente aut excepturi
-            itaque. Iure aut eveniet fugit ut dignissimos aut. Hic ducimus
-            voluptatem illum voluptas ad quos ex. Officia et accusantium
-            voluptatem et consequuntur. Et quia nemo consequatur adipisci vel
-            repudiandae rerum. Voluptatem architecto perspiciatis eum. Sit
-            numquam ut accusamus sed nam nobis provident.
+            I'm a third year Computer Science studdent at University of
+            Indonesia. I have an interest in full-stack development. I have
+            experience in Competitive Programming since Senior High School
+            altough I don't do it anymore. I also enjoy learning and seeing
+            things in many perspectives.
           </Typography>
         </Grid>
         <Grid item></Grid>
