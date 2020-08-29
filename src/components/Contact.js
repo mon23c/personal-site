@@ -9,9 +9,15 @@ const Contact = (classes) => {
         Find me on
       </Typography>
       <Grid container justify="center">
-        <GitHub color="action" style={{ fontSize: 100 }} />
-        <LinkedIn color="action" style={{ fontSize: 100 }} />
-        <Email color="action" style={{ fontSize: 100 }} />
+        <a href="https://github.com/mon23c">
+          <GitHub color="action" style={{ fontSize: 100 }} />
+        </a>
+        <a href="https://www.linkedin.com/in/adrian-wijaya-179b86143/">
+          <LinkedIn color="action" style={{ fontSize: 100 }} />
+        </a>
+        <a href="mailto:adrianwijaya100@gmail.com?Subject=Hi">
+          <Email color="action" style={{ fontSize: 100 }} />
+        </a>
       </Grid>
     </Container>
   );
