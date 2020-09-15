@@ -33,7 +33,7 @@ const About = (classes) => {
             I'm a third year Computer Science studdent at University of
             Indonesia. I have an interest in full-stack development. I have
             experience in Competitive Programming since Senior High School
-            altough I don't do it anymore. I also enjoy learning new things
+            although I don't do it anymore. I also enjoy learning new things
             while in free time.
           </Typography>
         </Grid>
