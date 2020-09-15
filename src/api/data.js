@@ -3,7 +3,7 @@ export const projects = [
     name: "Portfolio Site (this site)",
     link: "https://www.adrianwijaya.codes",
     content:
-      "A Portfolio website fully built using React.js, designed to be responsive and suppor PWA (coming soon)",
+      "A Portfolio website fully built using React.js, designed to be responsive and support PWA",
   },
   {
     name: "Rubiks 2x2",
@@ -24,7 +24,8 @@ export const experiences = [
     title:
       "Web Developer at Faculty of Computer Science, University of Indonesia",
     time: "Aug 2020 - Present",
-    content: "",
+    content:
+      "Built & improved the IT services that were related to the internal services.",
   },
   {
     title: "CS UI Undergraduate Teaching Assistant",
@@ -35,21 +36,19 @@ export const experiences = [
   {
     title: "Awardee, SEA scholarship",
     time: "Nov 2018",
-    content: "",
+    content:
+      "A four-years full scholarship program  initiated by SEA Company, to develop South East Asia students interest in Technology.",
   },
   {
     title: "Finalist, ACM ICPC Regional Jakarta 2019",
     time: "Oct 2019",
-    content: "",
+    content:
+      "An ICPC-style programming competition participated by around 60 teams in finals.",
   },
   {
     title: "Finalist, Junior Programming Contest at Compfest",
     time: "2017",
-    content: "",
-  },
-  {
-    title: "Second Place, Provincial Olympiad in Informatics (OSP Komputer)",
-    time: "2017",
-    content: "",
+    content:
+      "An IOI-style programming competition participated by high school students from Indonesia",
   },
 ];
