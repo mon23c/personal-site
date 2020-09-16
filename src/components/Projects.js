@@ -4,7 +4,6 @@ import Codecard from "../util/Codecard";
 import { projects } from "../constant/data";
 
 const Projects = (classes) => {
-  console.log(projects);
   return (
     <Container>
       <Typography

@@ -9,7 +9,6 @@ import {
 import { Code } from "@material-ui/icons";
 
 const Codecard = (props) => {
-  console.log(JSON.stringify(props));
   return (
     <Card variant="outlined">
       <CardContent>
