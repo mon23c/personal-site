@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Typography, Grid } from "@material-ui/core";
 import Codecard from "../util/Codecard";
+import { projects } from "../constant/data";
 
 const Projects = (classes) => {
+  console.log(projects);
   return (
     <Container>
       <Typography
@@ -15,42 +17,15 @@ const Projects = (classes) => {
         Projects
       </Typography>
       <Grid container spacing={4}>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
-        <Grid item xs={12} md={4} sm={6}>
-          <Codecard classes={classes} />
-        </Grid>
+        {projects.map((project) => (
+          <Grid item xs={12} md={4} sm={6}>
+            <Codecard
+              name={project.name}
+              link={project.link}
+              content={project.content}
+            />
+          </Grid>
+        ))}
       </Grid>
     </Container>
   );

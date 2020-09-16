@@ -36,11 +36,7 @@ function App() {
       <div className="light-gray" id="experience">
         <Experiences classes={classes} />
       </div>
-      <div
-        className="light"
-        style={{ justifyContent: "flex-start" }}
-        id="project"
-      >
+      <div className="light" id="project">
         <Projects classes={classes} />
       </div>
       <div className="light-gray" id="contact">

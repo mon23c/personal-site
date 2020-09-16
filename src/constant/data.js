@@ -17,6 +17,11 @@ export const projects = [
     content:
       "A Chatbot built using python which has miscellaneous function such as calculator, web scraping, etc",
   },
+  {
+    name: "Coming Soon",
+    link: "",
+    content: "Stay tuned!",
+  },
 ];
 
 export const experiences = [
