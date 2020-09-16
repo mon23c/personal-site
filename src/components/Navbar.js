@@ -10,7 +10,7 @@ import {
   Hidden,
 } from "@material-ui/core";
 import { Link } from "react-scroll";
-import * as url from "../assets/A.ico";
+import * as url from "../assets/A.png";
 
 const Navbar = (classes) => {
   return (
@@ -24,7 +24,7 @@ const Navbar = (classes) => {
               color="inherit"
               aria-label="menu"
             >
-              <img src={url.default} style={{ width: 38 }} />
+              <img src={url.default} style={{ width: 38 }} alt="My profile" />
             </IconButton>
           </Link>
           <Hidden smDown>
