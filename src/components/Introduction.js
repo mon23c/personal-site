@@ -28,7 +28,7 @@ const Introduction = (classes) => {
             </Link>
           </Grid>
           <Grid item>
-            <a href="javascript:window.open('https://docs.google.com/document/d/1G0vOLwmwaoInDT4G0AfPnczeyAet2MTaSQk17___0Is/edit?usp=sharing');">
+            <a href="https://docs.google.com/document/d/1G0vOLwmwaoInDT4G0AfPnczeyAet2MTaSQk17___0Is/edit?usp=sharing">
               <Button variant="outlined" color="primary">
                 My Resume
               </Button>
