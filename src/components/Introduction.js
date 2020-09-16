@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Typography, Grid, Button } from "@material-ui/core";
 import TypeWriter from "../util/typewriter";
+import { Link } from "react-scroll";
 
 const Introduction = (classes) => {
   return (
@@ -20,9 +21,11 @@ const Introduction = (classes) => {
       <div className={classes.heroButtons}>
         <Grid container spacing={2} justify="center">
           <Grid item>
-            <Button variant="contained" color="primary">
-              See What's Below
-            </Button>
+            <Link to="about" smooth={true} duration={1000}>
+              <Button variant="contained" color="primary">
+                See What's Below
+              </Button>
+            </Link>
           </Grid>
           <Grid item>
             <a href="javascript:window.open('https://docs.google.com/document/d/1G0vOLwmwaoInDT4G0AfPnczeyAet2MTaSQk17___0Is/edit?usp=sharing');">
