@@ -15,7 +15,6 @@ const Experiences = (classes) => {
   const handleChange = (panel) => (isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
-  console.log(experiences);
 
   return (
     <Container>

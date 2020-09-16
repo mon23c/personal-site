@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Portfolio Site (this site)",
-    link: "https://www.adrianwijaya.codes",
+    link: "https://github.com/mon23c/personal-site",
     content:
       "A Portfolio website fully built using React.js, designed to be responsive and support PWA",
   },
