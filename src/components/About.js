@@ -30,7 +30,7 @@ const About = (classes) => {
       <Grid container item spacing={2} md={6} justify="center">
         <Grid item>
           <Typography color="textPrimary">
-            I'm a third year Computer Science studdent at University of
+            I'm a third year Computer Science student at University of
             Indonesia. I have an interest in full-stack development. I have
             experience in Competitive Programming since Senior High School
             although I don't do it anymore. I also enjoy learning new things

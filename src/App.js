@@ -27,20 +27,23 @@ function App() {
   return (
     <div className={classes.root}>
       <Navbar classes={classes} />
-      {/* <TypeWriter text="Coming Soon" speed={75} delay={1250} /> */}
-      <div className="light-gray">
+      <div className="light-gray" id="home">
         <Introduction className="App-header" classes={classes} />
       </div>
-      <div className="light">
+      <div className="light" id="about">
         <About classes={classes} />
       </div>
-      <div className="light-gray">
+      <div className="light-gray" id="experience">
         <Experiences classes={classes} />
       </div>
-      <div className="light" style={{ justifyContent: "flex-start" }}>
+      <div
+        className="light"
+        style={{ justifyContent: "flex-start" }}
+        id="project"
+      >
         <Projects classes={classes} />
       </div>
-      <div className="light-gray">
+      <div className="light-gray" id="contact">
         <Contact classes={classes} />
       </div>
       <Footer classes={classes} />
