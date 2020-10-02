@@ -7,7 +7,7 @@ export const projects = [
   },
   {
     name: "Rubiks 2x2",
-    link: "https://www.rubiks2x2.herokuapp.com/",
+    link: "https://rubiks2x2.herokuapp.com/",
     content:
       "A Web-based Rubik simulation and solver, built using Prolog in Logic Programming Course",
   },
